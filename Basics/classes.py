@@ -3,8 +3,10 @@
 #
 
 class baseClass():
+  sound = "Quaack!"
+  walking = "Walking like a duck."
   def method1(self):
-    print("Calling baseClass method1")
+    print("Calling baseClass method1"+"   ----->"+self.sound+"    +++++++"+self.walking) 
 
   def method2(self, someString):
     print("Calling baseClass method2: " + someString)
