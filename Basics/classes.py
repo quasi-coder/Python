@@ -3,6 +3,9 @@
 # self is not a keyword.
 #the first argument is self, which is a reference to the object, not the class, to the object. And so, when an object is #created from the class, self will reference that object. And then everything that references anything defined in the #class is dereferenced off itself to get the instantiated object version of it. And the period operator is used to #dereference the object. And the same is true outside of the class.
 
+# Class methods have 'self' specified as their first argument. Given this case, below statement is true
+#The argument is automatically filled when the method is called.
+
 class baseClass():
   sound = "Quaack!"
   walking = "Walking like a duck."
