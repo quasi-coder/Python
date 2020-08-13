@@ -14,3 +14,7 @@ print(s)
 print(ascii(s))
 print(chr(128406))
 print(ord('🖖'))
+
+
+#Print the objects that are available
+print(dir('shirt'))
